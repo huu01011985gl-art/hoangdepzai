@@ -202,7 +202,7 @@ local function AddLabel(text, color, size)
     return l
 end
 
-local Title = AddLabel("? HUB BOUNTY", Color3.fromRGB(255, 200, 80), 50)
+local Title = AddLabel("? HDZ buonty", Color3.fromRGB(255, 200, 80), 50)
 local TimeL = AddLabel("Time: 0h0m0s", Color3.fromRGB(255, 255, 255), 26)
 local BountyL = AddLabel("Bounty: 0", Color3.fromRGB(255, 255, 255), 26)
 local StatusL = AddLabel("Status: Initializing...", Color3.fromRGB(255, 255, 255), 16)
