@@ -1,4 +1,5 @@
-
+loadstring(game:HttpGet("https://raw.githubusercontent.com/nvb201112/fix-lag/refs/heads/main/fix%20lag%20new.luau"))()
+-- This file was deobfuscated using Scene Deobfuscator discord.gg/deobfuscate :D
 
 hookfunction(require(game:GetService("ReplicatedStorage").Effect.Container.Death), function()
     -- empty block
@@ -3665,9 +3666,9 @@ function CheckItemBPCRBPCR(v463)
     end
 end
 local v466 = loadstring(game:HttpGet("https://raw.githubusercontent.com/nvb201112/ui/refs/heads/main/uinew.luau.txt"))():MakeWindow({
-    Title = "HDZ hub",
-    SubTitle = "by hoang",
-    SaveFolder = "script BloxFruits| redz ui "
+    Title = "the_real_Panda Hub",
+    SubTitle = "by the_real_Panda",
+    SaveFolder = "the_real_Panda| redz lib v5.lua"
 })
 local l_ScreenGui_0 = Instance.new("ScreenGui")
 l_ScreenGui_0.Name = "ControlGUI"
@@ -3755,25 +3756,21 @@ local v494 = v466:MakeTab({"PvP,Player","rbxassetid://114754909565083"})
 local v495 = v466:MakeTab({"Shop","rbxassetid://114754909565083"})
 local v496 = v466:MakeTab({"Settings","rbxassetid://114754909565083"})
 v484:AddDiscordInvite({
-    Name = "nhìn cặc tik tok của tao",
-    Description = "@nguyenhoangtato
-    
-    
-    
-    @hdzreal1",
-    Logo = "rbxassetid://102423661438105",
+    Name = "Youtube:theRealPandaSkidder",
+    Description = "@the_real_Panda-Skidder",
+    Logo = "rbxassetid://104244131257140",
     Invite = ""
 })
 v484:AddDiscordInvite({
-    Name = "discord",
-    Description = "https://discord.gg/AN5Rkxe28",
-    Logo = "rbxassetid://102423661438105",
-    Invite = ""
+    Name = "the_real_Panda Hub",
+    Description = "",
+    Logo = "rbxassetid://114754909565083",
+    Invite = "https://www.youtube.com/channel/UC_QyZH-5347xqohjTB8JSYg"
 })
 v484:AddDiscordInvite({
-    Name = "Hoang depzai",
-    Description = "https://discord.gg/AN5Rkxe28",
-    Logo = "rbxassetid://102423661438105",
+    Name = "the_real_Panda Hub",
+    Description = "",
+    Logo = "rbxassetid://114754909565083",
     Invite = ""
 })
 local _ = v485:AddSection({"Select Melee,Sword,Gun,Fruit"})
