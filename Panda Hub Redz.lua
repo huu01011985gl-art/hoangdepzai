@@ -1,4 +1,4 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/huu01011985gl-art/Fastattack/refs/heads/main/danhnhanhbucu"))()
+
 
 hookfunction(require(game:GetService("ReplicatedStorage").Effect.Container.Death), function()
     -- empty block
