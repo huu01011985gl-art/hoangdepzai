@@ -1,5 +1,3 @@
-
-
 do
   ply = game.Players
   plr = ply.LocalPlayer
@@ -1651,13 +1649,13 @@ end
 
 local redzlib = loadstring(game:HttpGet("https://pastefy.app/FlVcyUzm/raw"))()
 local Window = redzlib:MakeWindow({
-  Title = "<font color='rgb(255,0,0)'>HDZ hub</font>",
+  Title = "<font color='rgb(255,0,0)'>AURA Hub</font>",
   SubTitle = "<font color='rgb(255,0,0)'>Blox Fruit</font>",
-  SaveFolder = "HDZBF"
+  SaveFolder = "AURAmain.lua"
 })
 
 Window:AddMinimizeButton({
-    Button = { Image = "rbxassetid://102423661438105", BackgroundTransparency = 0 },
+    Button = { Image = "rbxassetid://81811996607413", BackgroundTransparency = 0 },
     Corner = { CornerRadius = UDim.new(0, 5) },
 })
 local Tabs = {
@@ -1679,24 +1677,21 @@ local Tabs = {
 
 Tabs.Info:AddSection("Information")
     Tabs.Info:AddParagraph({
-    Title = "HDZ Hub Info",
+    Title = "Aura Hub Info",
     Content = "Developer: jeuwiw36\nOwner: jaikutty_180495"
 })
 
     Tabs.Info:AddDiscordInvite({
-    Title = "tiktok",
+    Title = "Our YouTube Channel",
     Description = "Please subscribe to our channel.",
-    Logo = "rbxassetid://102423661438105",
-    Invite = "@nguyenhoangtato
-    
-    
-    @hdzreal1",
+    Logo = "rbxassetid://81811996607413",
+    Invite = "https://www.youtube.com/@AURA_CORPORATION-9",
 })
     Tabs.Info:AddDiscordInvite({
     Title = "Discord",
     Description = "Join Discord to receive notifications about script updates and more.",
-    Logo = "rbxassetid://102423661438105",
-    Invite = "https://discord.gg/AN5Rkxe28",
+    Logo = "rbxassetid://81811996607413",
+    Invite = "https://discord.gg/qsCKHxRKc",
 })
 
 Tabs.Info:AddSection("Status Server")
@@ -1964,7 +1959,7 @@ end)
 
 AttackDropdown = Tabs.Main:AddDropdown({
     Name = "Choose Attack Speed",
-    Options = {"Normal Attack","Fast Attack","Super Fast Attack","HDZ Attack"},
+    Options = {"Normal Attack","Fast Attack","Super Fast Attack","Aura Attack"},
     Default = "Fast Attack",
     Callback = function(Value)
     _G.FastAttackGravity_Mode = Value
@@ -1975,7 +1970,7 @@ local DelayConfig = {
     ["Normal Attack"] = 0.25,
     ["Fast Attack"] = 0.15,
     ["Super Fast Attack"] = 0.05,
-    ["HDZ Attack"] = 0.1
+    ["Aura Attack"] = 0.1
 }
 
 spawn(function()
